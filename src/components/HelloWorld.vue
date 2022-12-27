@@ -9,5 +9,5 @@
 <script setup>  
 import { ref} from "vue"
 const query = ref('defaultvalue')
-const url = "https://80fb-31-187-152-178.ngrok.io/openai?q=" + query.value
+const url = ref("https://80fb-31-187-152-178.ngrok.io/openai?q=" + query.value)
 </script>
